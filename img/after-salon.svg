@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Salon vide, propre et lumineux après débarras">
+  <defs>
+    <linearGradient id="asWall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfcfd"/><stop offset="1" stop-color="#eef3f7"/></linearGradient>
+    <linearGradient id="asFloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ddcf"/><stop offset="1" stop-color="#d8cab6"/></linearGradient>
+    <linearGradient id="asLight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff6d8" stop-opacity=".9"/><stop offset="1" stop-color="#fff6d8" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#asWall)"/>
+  <rect y="430" width="800" height="170" fill="url(#asFloor)"/>
+  <!-- floorboards -->
+  <g stroke="#cbb89e" stroke-width="2" opacity=".5">
+    <line x1="0" y1="470" x2="800" y2="470"/><line x1="0" y1="515" x2="800" y2="515"/><line x1="0" y1="560" x2="800" y2="560"/>
+    <line x1="150" y1="430" x2="120" y2="600"/><line x1="380" y1="430" x2="380" y2="600"/><line x1="610" y1="430" x2="660" y2="600"/>
+  </g>
+  <!-- window -->
+  <rect x="500" y="90" width="230" height="270" rx="6" fill="#dff0fb" stroke="#fff" stroke-width="10"/>
+  <line x1="615" y1="90" x2="615" y2="360" stroke="#fff" stroke-width="8"/>
+  <line x1="500" y1="225" x2="730" y2="225" stroke="#fff" stroke-width="8"/>
+  <!-- light beam -->
+  <polygon points="510,100 720,100 560,500 250,500" fill="url(#asLight)"/>
+  <!-- plant -->
+  <rect x="120" y="360" width="60" height="80" rx="8" fill="#cf7a4e"/>
+  <path d="M150 360c-30-20-44-66-30-104 18 28 30 48 30 74 0-34 16-66 44-86-8 44-24 78-44 116z" fill="#3aa564"/>
+  <path d="M150 360c26-14 44-50 40-92-22 22-36 46-40 74" fill="#2e8b54"/>
+  <!-- minimal frame on wall -->
+  <rect x="180" y="150" width="120" height="90" rx="4" fill="#fff" stroke="#d7dee4" stroke-width="6"/>
+  <path d="M196 220l30-34 22 22 18-16 26 28z" fill="#bcd6e6"/>
+  <circle cx="270" cy="178" r="10" fill="#ffe08a"/>
+  <!-- baseboard -->
+  <rect y="424" width="800" height="10" fill="#fff" opacity=".8"/>
+</svg>
