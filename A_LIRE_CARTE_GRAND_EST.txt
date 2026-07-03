@@ -1,0 +1,3 @@
+Version finale avec nouvelle carte Grand Est intégrée dans index.html.
+Les photos avant/après réalistes et les couleurs/structure du site sont conservées.
+Pour GitHub Desktop : copier le contenu de ce dossier dans mon-site, puis Commit to main et Push origin.
