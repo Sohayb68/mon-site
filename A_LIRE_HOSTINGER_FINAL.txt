@@ -1,0 +1,21 @@
+ClairEspace — version finale Hostinger
+
+Contenu à envoyer dans public_html :
+- index.html
+- contact.php
+- merci.html
+- 404.html
+- toutes les pages debarras-*.html
+- dossiers css, js et img
+- robots.txt et sitemap.xml
+
+Le formulaire pointe vers contact.php.
+Par défaut, les demandes sont envoyées à : clairespace.maison@gmail.com
+
+Si votre domaine n'est pas clairespace.fr, ouvrez contact.php et modifiez :
+$EXPEDITEUR = "no-reply@clairespace.fr";
+par une adresse de votre domaine, par exemple :
+$EXPEDITEUR = "no-reply@votredomaine.fr";
+
+Après upload sur Hostinger, testez le formulaire avec une vraie adresse email.
+Pensez à vérifier les spams dans Gmail.

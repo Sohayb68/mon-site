@@ -1,8 +1,0 @@
-Ce dossier est prêt pour GitHub Pages.
-
-Important : GitHub Pages ne lance pas PHP. J'ai donc remplacé action="contact.php" par action="#" dans les formulaires.
-Résultat : le site s'affiche correctement et le formulaire montre un message de succès, mais AUCUN email n'est envoyé.
-Pour recevoir les formulaires par email, utilisez la version Hostinger-ready ou remplacez l'action du formulaire par un service externe type Formspree.
-
-À envoyer sur GitHub : le CONTENU de ce dossier, pas le dossier lui-même.
-Le fichier index.html doit rester à la racine du dépôt.

@@ -1,1 +1,1 @@
-Version corrigée : conserve la mise en page originale et remplace uniquement les images SVG de démonstration par les vraies photos JPG.
+Version corrigée Hostinger : conserve la mise en page originale et remplace uniquement les images SVG de démonstration par les vraies photos JPG.

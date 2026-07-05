@@ -1,0 +1,6 @@
+Ce dossier est prêt pour Hostinger (public_html).
+
+Contenu à envoyer dans public_html : les fichiers à la racine + dossiers css, js, img.
+Le formulaire utilise contact.php : il nécessite un hébergement avec PHP, comme Hostinger.
+Avant mise en production, vérifiez dans contact.php : DESTINATAIRE et EXPEDITEUR.
+Vérifiez aussi que les URLs canoniques dans les pages correspondent bien à votre domaine final.
